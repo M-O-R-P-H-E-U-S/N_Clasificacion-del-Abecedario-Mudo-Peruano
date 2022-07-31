@@ -115,7 +115,7 @@ Resultados
 
 Mostrandose los ploteos del conteo de frames por etiqueta de cada uno de nuestros conjuntos de dataset:
 
-![Screenshot](conteo.png)
+![Screenshot](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/Conteo.png)
 
 Se esta evaluando el modelo, con dataset GRAY_50:
 ```
