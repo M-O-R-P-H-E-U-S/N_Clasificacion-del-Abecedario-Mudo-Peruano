@@ -11,13 +11,19 @@ Introduccion
 
 Ha habido personas sordas en todos los momentos de la historia humana, y en todas partes en que estas han formado una comunidad, una lengua de señas ha surgido.
 
-El lenguaje de señas es un tipo de lenguaje que utiliza movimientos de manos, expresiones faciales y lenguaje corporal para comunicarse. Lo utilizan las personas sordas y las personas que no pueden hablar pero si oir. Pero también lo utilizan personas oyentes, con mayor frecuencia familias y parientes de los sordos, e intérpretes que permiten que los sordos y comunidades más amplias se comuniquen entre sí.
+El lenguaje de señas es un tipo de lenguaje que utiliza movimientos de manos, expresiones faciales y lenguaje corporal para comunicarse. Lo utilizan las personas sordas y las personas que no pueden hablar pero si oir. Pero también lo utilizan personas oyentes, con mayor frecuencia parientes de las personas sordas, e intérpretes que permiten que los sordos y comunidades más amplias se comuniquen entre sí.
 
 El Lenguaje de Señas(LSP) es una lengua originaria peruana creada por la comunidad sorda del Peru. De igual manera a todas las lenguas, a partir de ella se construye la identidad, la cultura, el conocimiento ancestral y las prácticas sociales de sus usuarios. 
 
 Por tal motio el Lenguaje de Señas entre países y regiones puede diferir en diversas partes de su estructura y gramatica, el Lenguaje de Señas Peruano(LSP) es diferente al que se usa en Brasil, USA, Bolivia, Uruguay, Argentina o en Chile.
 
 Con la ayuda de la ciencia y la tecnología avanzadas, sean desarrollado muchas técnicas para que las personas sordas se puedan comunicar con mucha fluidez.
+
+
+Pero el hecho de que perciban las imágenes de manera diferente no significa que no podamos entrenarlos para reconocer patrones como lo hacemos nosotros. Sólo tenemos que pensar en qué es diferente una imagen.
+
+Para enseñar un algoritmo sobre cómo reconocer objetos en imágenes, utilizamos un tipo específico de red neuronal artificial: una red neuronal convolucional (CNN). Su nombre proviene de una de las operaciones más importantes de la red llamada convolución.
+
 
 Una Red Neuronal Convolucional(CNN) toma una imagen como entrada, donde distingue sus objetos en función de tres planos de color e identifica varios espacios de color. Ademas mide las dimensiones de la imagen. Ilustrando el proceso anterior:
 
@@ -250,9 +256,9 @@ Ahora mostramos las graficas de "Accuracy vs Epocas" y "Loss vs Epocas", obtenid
 
 *RGB_50
 
-![RGB_Accuracy_50]()
+![RGB_Accuracy_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_Accuracy_50.png)
 
-![RGB_Loss_50]()
+![RGB_Loss_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_Loss_50.png)
 
 
 Ahora la evaluacion el modelo, con dataset GRAY_28:
@@ -282,19 +288,14 @@ El accuracy del modelo, con dataset RGB_28:
 0.9935048222541809
 ```
 
-
 Ahora la evaluacion el modelo, con dataset RGB_50:
 ```
-
+722/722 - 8s - loss: 6.2035e-04 - accuracy: 0.9999 - 8s/epoch - 11ms/step
 ```
 El accuracy del modelo, con dataset RGB_50:
 ```
-
+0.9999133944511414
 ```
-
-
-
-
 
 Conclusiones
 -----
