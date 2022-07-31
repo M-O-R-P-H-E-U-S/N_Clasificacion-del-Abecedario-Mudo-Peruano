@@ -304,8 +304,9 @@ Conclusiones
 
 * Cuantos mas canales tenga nuestros frames mas lento sera el aprendizaje de nuestra red neuronal convolucional(CNN) pero obtendremos un mejor accuracy que si usaramos tan solo 01 canal. 
 
-* Podemos concluir que el accuracy de (28px)x(28px) en RGB es mayor pero no lo suficientemente como para no trabajar con frames de (28px)x(28px) en ecalas de grises.
+* Podemos concluir que el accuracy de (28px)x(28px) en RGB es mayor pero no lo suficientemente como para no trabajar con frames de (28px)x(28px) en escalas de grises.
 
+* Podemos concluir que el accuracy de (50px)x(50px) en escala de grises es mayor pero no lo suficientemente como para no trabajar con frames de (28px)x(28px) en RGB, hecho que no fue esperado dado que en RGB se tiene mas informacion de los frames y se podria tener un mejor aprendizaje.
 
 Trabajos Futuros
 -----
