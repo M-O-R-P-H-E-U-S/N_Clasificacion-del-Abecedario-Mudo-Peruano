@@ -315,11 +315,11 @@ El accuracy del modelo, con dataset RGB_50:
 Ahora mostrando los diagramas de los modelos:
 
 *MODEL_RGB_28:
-![MODEL_RGB_28]([https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/MODEL_RGB_28.png](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/MODEL_RGB_28.png))
+![MODEL_RGB_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/MODEL_RGB_28.png)
 
 
 *MODEL_RGB_50:
-![MODEL_RGB_50]([https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/MODEL_RGB_50.png](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/MODEL_RGB_50.png))
+![MODEL_RGB_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/MODEL_RGB_50.png)
 
 Ahora predeciremos a que letras pertenece cada signo mostrado en la parte experimental.
 
@@ -409,7 +409,7 @@ Conclusiones
 
 * Se concluye que el modelo predice mejor a escalas de grises y con dimensiones de (50px)x(50px).
 
-* Se concluye que no no hay una relacion directa en el numero de epocas de entrenamiento y la precision del modelo. En experimentos anteriores con 10 epocas de entrenamiento se obtuvieron mejores resultados que si se entrenasen a 100 epocas.
+* Se concluye que no no hay una relacion directa en el numero de epocas de entrenamiento y la precision del modelo. En experimentos anteriores con 10 epocas de entrenamiento se obtuvieron mejores resultados que si se entrenasen a 100 epocas. Estando frentes a un caso de overfitting
 
 * Nuestro dataset de entrenamiento es de 32992 para poder predecir con mayor precision se necesita un dataset mas robusto alrededor del millon para que nuestra red neuronal convolucional aprenda correctamente cada signo del Lenguaje de Señas Peruano(LSP).
 
