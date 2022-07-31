@@ -325,6 +325,8 @@ Conclusiones
 
 * Podemos concluir que el accuracy de (50px)x(50px) en escala de grises es mayor pero no lo suficientemente como para no trabajar con frames de (28px)x(28px) en RGB, hecho que no fue esperado dado que en RGB se tiene mas informacion de los frames y se podria tener un mejor aprendizaje.
 
+* Al usar frames de mayor dimensiones de obtenemos una mejor calidad de las imagenes, en relacion (50px)x(50px) a (28px)x(28px).
+
 Trabajos Futuros
 -----
 
