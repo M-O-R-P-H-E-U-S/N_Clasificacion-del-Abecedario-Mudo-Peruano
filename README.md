@@ -115,6 +115,7 @@ Resultados
 
 Mostrandose los ploteos del conteo de frames por etiqueta de cada uno de nuestros conjuntos de dataset:
 
+![Screenshot](conteo.png)
 
 Se esta evaluando el modelo, con dataset GRAY_50:
 ```
