@@ -1,10 +1,5 @@
 Reconocimiento del abecedario en el Lenguaje de Señas Peruano(LSP)
 ========
-Abstract
------
-
-Resumen
------
 
 Introduccion
 -----
@@ -17,23 +12,22 @@ El Lenguaje de Señas(LSP) es una lengua originaria peruana creada por la comuni
 
 Por tal motio el Lenguaje de Señas entre países y regiones puede diferir en diversas partes de su estructura y gramatica, el Lenguaje de Señas Peruano(LSP) es diferente al que se usa en Brasil, USA, Bolivia, Uruguay, Argentina o en Chile.
 
-Con la ayuda de la ciencia y la tecnología avanzadas, sean desarrollado muchas técnicas para que las personas sordas se puedan comunicar con mucha fluidez.
+Con la ayuda de la ciencia y la tecnología avanzadas, sean desarrollado muchas técnicas para que las personas sordas se puedan comunicar con fluidez.
 
 
-Pero el hecho de que perciban las imágenes de manera diferente no significa que no podamos entrenarlos para reconocer patrones como lo hacemos nosotros. Sólo tenemos que pensar en qué es diferente una imagen.
+Al igual que un infante aprende a reconocer objetos, necesitamos elaborar un algoritmo para que la computadora pueda aprender, millones de imágenes antes de que pueda generalizar la entrada y hacer predicciones para imágenes que nunca antes había visto.
 
-Para enseñar un algoritmo sobre cómo reconocer objetos en imágenes, utilizamos un tipo específico de red neuronal artificial: una red neuronal convolucional (CNN). Su nombre proviene de una de las operaciones más importantes de la red llamada convolución.
+Las computadoras "ven" de una manera diferente a como lo hacemos nosotros. Su mundo consiste sólo en números. Cada imagen se puede representar como conjuntos bidimensionales de números, conocidos como píxeles.
 
+Pero el hecho de que perciban las imágenes de manera diferente no significa que no puedan ser entrenadas para reconocer patrones como lo hacemos los humanos.
+
+Para enseñar un algoritmo sobre cómo reconocer objetos en imágenes, utilizamos un tipo específico de red neuronal artificial: una red neuronal convolucional (CNN). 
 
 Una Red Neuronal Convolucional(CNN) toma una imagen como entrada, donde distingue sus objetos en función de tres planos de color e identifica varios espacios de color. Ademas mide las dimensiones de la imagen. Ilustrando el proceso anterior:
 
 ![cnn](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/cnn.png)
 
 En la imagen anterior, tenemos varios colores basados en el plano de tres colores que es rojo(R), verde(G) y azul(B). A continuación, se identifican los diversos espacios de color en los que se encuentran las imágenes, como RGB, CMYK, escala de grises y muchos más. Una capacidad practica de las redes neuronales convolucionales es que reducen la dimensión de la imagen hasta el punto de que es más fácil de procesar. 
-
-
-
-   Los lenguajes de señas son los medios básicos de comunicación entre las personas con discapacidad auditiva. Imagine que desea tener una conversación con una persona sorda, entonces el lenguaje de señas tiene varios gestos y lenguajes corporales para transmitir mensajes a diferencia del patrón de habla verbal. Esto ya puede parecer una tarea tediosa, especialmente si no tienes idea de cómo comunicarte usando el lenguaje de señas. Tal es el problema al que se enfrentan millones de personas sordas que no pueden comunicarse e interactuar con personas oyentes. p.ej. sistemas de reconocimiento de texto y gestos. El reconocimiento del lenguaje de señas es muy importante no para el campo de la ingeniería sino también para la sociedad. Por lo tanto, los avances tecnológicos prometen brindar soluciones para que los sordos se comuniquen con la sociedad. Los sistemas de traducción del lenguaje de señas podrán mejorar la comunicación y permitir que la comunidad sorda disfrute de una participación plena en la interacción diaria y el acceso a la información y los servicios. Los lenguajes de señas de todo el mundo utilizan gestos estáticos y dinámicos, expresiones faciales y posturas corporales para la comunicación. A primera vista, como idea, qué difícil podría hacer un conversor de lenguajes de señas. La pérdida de la audición y del habla puede hacer que las personas se aíslen y se sientan solas, lo que afectará aún más su vida social y laboral. Buscar el significado de un signo no es una tarea sencilla. El lenguaje de señas es un gesto de código bien estructurado donde cada gesto tiene un significado asignado. La Lengua de Signos es el único medio de comunicación para las personas sordas. Con el avance de la ciencia y la tecnología se han desarrollado muchas técnicas no solo para minimizar el problema de las personas sordomudas sino también para implementarlo en diferentes campos. El lenguaje de señas es un lenguaje que, en lugar de patrones de voz o sonido, utiliza la comunicación manual y el lenguaje corporal para transmitir el significado. Esto implica principalmente la combinación de formas, orientación y movimiento de las manos. El lenguaje de señas no solo lo usan los sordos, sino también los que pueden oír, pero no pueden hablar físicamente. Toda la Federación India de Sordos estima que alrededor de 4 millones de personas sordas y más de 10 millones de personas tienen problemas de audición en la India. Los estudios dicen que una de cada cinco personas sordas en el mundo es india. De ellos, más de 1,5 millones de sordos
 
 Motivacion
 -----
@@ -186,9 +180,13 @@ Guardando el modelo de entrenamiento de nuestros 04 conjuntos de dataset, en arc
 
 *Modelo RGB_28: RGB_50_100Epocas.h5
 
-Una vez guardados los modelos 
+Una vez guardados los modelos los cargamos en el siguiente sript:
 
-Usando las siguientes imagenes obtenidas de una mano distinta y de fondo distinto al original usado para la elaboracion del dataset.
+```
+Using_model.py
+```
+
+Usando las siguientes imagenes obtenidas de una mano distinta y de fondo distinto al original usado para la elaboracion del dataset, las cargamos al script anterior y predecimos en texto el signo que se visualiza.
 
 ![DEBE_SER_A](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_A.jpg)
 
@@ -201,7 +199,6 @@ Usando las siguientes imagenes obtenidas de una mano distinta y de fondo distint
 ![DEBE_SER_W](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_W.jpg)
 
 ![DEBE_SER_Y](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_Y.jpeg)
-
 
 Resultados
 -----
@@ -403,6 +400,8 @@ Conclusiones
 * Se concluye que el modelo predice mejor a escalas de grises y con dimensiones de (50px)x(50px).
 
 * Se concluye que no no hay una relacion directa en el numero de epocas de entrenamiento y la precision del modelo. En experimentos anteriores con 10 epocas de entrenamiento se obtuvieron mejores resultados que si se entrenasen a 100 epocas.
+
+* Nuestro dataset de entrenamiento es de 32992 para poder predecir con mayor precision se necesita un dataset mas robusto alrededor del millon para que nuestra red neuronal convolucional aprenda correctamente cada signo del Lenguaje de Señas Peruano(LSP).
 
 Trabajos Futuros
 -----
