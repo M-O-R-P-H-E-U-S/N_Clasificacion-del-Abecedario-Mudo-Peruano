@@ -91,21 +91,22 @@ Obteniendo 04 conjuntos de datasets:
 S_ : Data de entrenamiento.
 T_ : Data de prueba(testeo).
 
+
 Experimental
 -----
 
-Iniciamos ploteando nuestro conteo de frames por etiquetas, para ello hacemos uso del siguiente script:
+Iniciamos ploteando nuestros frames con sus respectivas etiquetas, en un grid de (5)x(5): 
 
 ```
 Ploting_images.py
 ```
 
-Seguidamente ploteamos nuestros frames con sus respectivas etiquetas: 
-
+Seguidamente ploteamos nuestro conteo de frames por etiquetas, para ello hacemos uso del siguiente script:
 
 ```
 Ploting_images.py
 ```
+
 
 
 
@@ -113,9 +114,25 @@ Ploting_images.py
 Resultados
 -----
 
+Visualizacion de los frames con su respectivas etiquetas:
+
+![GRAY_BINARY_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_BINARY_28.png)
+
+![GRAY_GREEN_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_GREEN_28.png)
+
+![GRAY_BINARY_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_BINARY_50.png)
+
+![GRAY_GREEN_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_GREEN_50.png)
+
+![RGB_BINARY_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_BINARY_28.png)
+
+![RGB_BINARY_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_BINARY_50.png)
+
+
+
 Mostrandose los ploteos del conteo de frames por etiqueta de cada uno de nuestros conjuntos de dataset:
 
-![Screenshot](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/Conteo.png)
+![Conteo](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/Conteo.png)
 
 Se esta evaluando el modelo, con dataset GRAY_50:
 ```
