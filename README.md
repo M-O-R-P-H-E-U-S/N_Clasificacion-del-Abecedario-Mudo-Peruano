@@ -314,6 +314,79 @@ El accuracy del modelo, con dataset RGB_50:
 0.9999133944511414
 ```
 
+Ahora predeciremos a que letras pertenece cada signo mostrado en la parte experimental.
+
+* GRAY_28_100Epocas.h5:
+```
+1/1 [==============================] - 0s 47ms/step
+Debe ser: A . Obtengo:  C
+1/1 [==============================] - 0s 11ms/step
+Debe ser: A . Obtengo:  C
+1/1 [==============================] - 0s 12ms/step
+Debe ser: G . Obtengo:  G
+1/1 [==============================] - 0s 13ms/step
+Debe ser: G o A . Obtengo:  P
+1/1 [==============================] - 0s 12ms/step
+Debe ser: L . Obtengo:  C
+1/1 [==============================] - 0s 12ms/step
+Debe ser: W . Obtengo:  L
+1/1 [==============================] - 0s 13ms/step
+Debe ser: Y . Obtengo:  C
+```
+* GRAY_50_100Epocas.h5:
+```
+1/1 [==============================] - 0s 53ms/step
+Debe ser: A . Obtengo:  A
+1/1 [==============================] - 0s 16ms/step
+Debe ser: A . Obtengo:  A
+1/1 [==============================] - 0s 13ms/step
+Debe ser: G . Obtengo:  H
+1/1 [==============================] - 0s 13ms/step
+Debe ser: G o A . Obtengo:  L
+1/1 [==============================] - 0s 12ms/step
+Debe ser: L . Obtengo:  F
+1/1 [==============================] - 0s 12ms/step
+Debe ser: W . Obtengo:  F
+1/1 [==============================] - 0s 14ms/step
+Debe ser: Y . Obtengo:  K
+```
+* RGB_28_100Epocas.h5:
+```
+1/1 [==============================] - 0s 48ms/step
+Debe ser: A . Obtengo:  P
+1/1 [==============================] - 0s 24ms/step
+Debe ser: A . Obtengo:  P
+1/1 [==============================] - 0s 13ms/step
+Debe ser: G . Obtengo:  F
+1/1 [==============================] - 0s 11ms/step
+Debe ser: G o A . Obtengo:  P
+1/1 [==============================] - 0s 12ms/step
+Debe ser: L . Obtengo:  F
+1/1 [==============================] - 0s 11ms/step
+Debe ser: W . Obtengo:  P
+1/1 [==============================] - 0s 11ms/step
+Debe ser: Y . Obtengo:  F
+```
+
+* RGB_50_100Epocas.h5:
+
+```
+1/1 [==============================] - 0s 40ms/step
+Debe ser: A . Obtengo:  C
+1/1 [==============================] - 0s 22ms/step
+Debe ser: A . Obtengo:  C
+1/1 [==============================] - 0s 11ms/step
+Debe ser: G . Obtengo:  H
+1/1 [==============================] - 0s 12ms/step
+Debe ser: G o A . Obtengo:  P
+1/1 [==============================] - 0s 11ms/step
+Debe ser: L . Obtengo:  F
+1/1 [==============================] - 0s 11ms/step
+Debe ser: W . Obtengo:  P
+1/1 [==============================] - 0s 11ms/step
+Debe ser: Y . Obtengo:  P
+```
+
 Conclusiones
 -----
 
@@ -326,6 +399,10 @@ Conclusiones
 * Podemos concluir que el accuracy de (50px)x(50px) en escala de grises es mayor pero no lo suficientemente como para no trabajar con frames de (28px)x(28px) en RGB, hecho que no fue esperado dado que en RGB se tiene mas informacion de los frames y se podria tener un mejor aprendizaje.
 
 * Al usar frames de mayor dimensiones de obtenemos una mejor calidad de las imagenes, en relacion (50px)x(50px) a (28px)x(28px).
+
+* Se concluye que el modelo predice mejor a escalas de grises y con dimensiones de (50px)x(50px).
+
+* Se concluye que no no hay una relacion directa en el numero de epocas de entrenamiento y la precision del modelo. En experimentos anteriores con 10 epocas de entrenamiento se obtuvieron mejores resultados que si se entrenasen a 100 epocas.
 
 Trabajos Futuros
 -----
