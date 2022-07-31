@@ -116,8 +116,14 @@ Resultados
 Mostrandose los ploteos del conteo de frames por etiqueta de cada uno de nuestros conjuntos de dataset:
 
 
-
-
+Se esta evaluando el modelo, con dataset GRAY_50:
+```
+722/722 - 8s - loss: 2.5148e-04 - accuracy: 1.0000 - 8s/epoch - 11ms/step
+```
+El accuracy del modelo, con dataset GRAY_50:
+```
+0.9999567270278931
+```
 
 Conclusiones
 -----
