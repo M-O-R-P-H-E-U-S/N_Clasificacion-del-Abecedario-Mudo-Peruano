@@ -116,23 +116,48 @@ Resultados
 
 Visualizacion de los frames con su respectivas etiquetas:
 
+*GRAY_BINARY_28
+
 ![GRAY_BINARY_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_BINARY_28.png)
+
+*GRAY_GREEN_28
 
 ![GRAY_GREEN_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_GREEN_28.png)
 
+*GRAY_BINARY_50
+
 ![GRAY_BINARY_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_BINARY_50.png)
+
+*GRAY_GREEN_50
 
 ![GRAY_GREEN_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_GREEN_50.png)
 
+*RGB_BINARY_28
+
 ![RGB_BINARY_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_BINARY_28.png)
+
+*RGB_BINARY_50
 
 ![RGB_BINARY_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_BINARY_50.png)
 
 
-
-Mostrandose los ploteos del conteo de frames por etiqueta de cada uno de nuestros conjuntos de dataset:
+Ahora, mostrandose los ploteos del conteo de frames por etiqueta de cada uno de nuestros conjuntos de dataset:
 
 ![Conteo](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/Conteo.png)
+
+Ahora mostramos las graficas de "Accuracy vs Epocas" y "Loss vs Epocas", obtenidas de cada dataset:
+
+*GRAY_28
+
+*GRAY_50
+
+![Accuracy](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_Accuracy_50.png)
+
+![Loss](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_Loss_50.png)
+
+*RGB_28
+
+*RGB_50
 
 Se esta evaluando el modelo, con dataset GRAY_50:
 ```
