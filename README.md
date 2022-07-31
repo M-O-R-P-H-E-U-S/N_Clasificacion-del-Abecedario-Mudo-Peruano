@@ -39,10 +39,6 @@ Objetivos de Investigacion
 
 Construir un algoritmo que mediante la visualizacion de signos estaticos del Lenguaje de Señas pueda convertirlos a texto, haciendo uso de las redes neuronales convolucionales por siglas en ingles CNN.
 
-
-Estado del Arte
------
-
 Realidad
 -----
 
