@@ -213,11 +213,11 @@ Ahora, mostrandose los ploteos del conteo de frames por etiqueta de cada uno de 
 
 *Conteo RGB_28
 
-![]()
+![RGB_conteo_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_conteo_28.png)
 
 *Conteo RGB_50
 
-![]()
+![RGB_conteo_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_conteo_50.png)
 
 Ahora mostramos las graficas de "Accuracy vs Epocas" y "Loss vs Epocas", obtenidas de cada dataset:
 
