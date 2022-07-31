@@ -200,6 +200,11 @@ Usando las siguientes imagenes obtenidas de una mano distinta y de fondo distint
 
 ![DEBE_SER_Y](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_Y.jpeg)
 
+Para poder visualizar los diagramas de los modelos se usa la siguiente funcion:
+```
+tf.keras.utils.plot_model("Modelo", to_file="Nombre de la imagen en extension jpg o jpeg u otra" , show_shapes=True)
+```
+
 Resultados
 -----
 
@@ -310,6 +315,15 @@ El accuracy del modelo, con dataset RGB_50:
 ```
 0.9999133944511414
 ```
+
+Ahora mostrando los diagramas de los modelos:
+
+*MODEL_RGB_28:
+![MODEL_RGB_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/MODEL_RGB_28.png)
+
+
+*MODEL_RGB_50:
+![MODEL_RGB_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/MODEL_RGB_50.png)
 
 Ahora predeciremos a que letras pertenece cada signo mostrado en la parte experimental.
 
