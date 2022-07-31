@@ -1,5 +1,4 @@
-#Clasificacion del abcedario mudo peruano
-
+#Reconocimiento del abecedario en el Lenguaje de Señas Peruano(LSP)
 Abstract
 -----
 
