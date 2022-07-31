@@ -1,4 +1,5 @@
-#Reconocimiento del abecedario en el Lenguaje de Señas Peruano(LSP)
+Reconocimiento del abecedario en el Lenguaje de Señas Peruano(LSP)
+========
 Abstract
 -----
 
