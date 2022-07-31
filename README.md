@@ -315,11 +315,11 @@ El accuracy del modelo, con dataset RGB_50:
 Ahora mostrando los diagramas de los modelos:
 
 *MODEL_RGB_28:
-![MODEL_RGB_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/MODEL_RGB_28.png)
+![MODEL_RGB_28]([https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/MODEL_RGB_28.png](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/MODEL_RGB_28.png))
 
 
 *MODEL_RGB_50:
-![MODEL_RGB_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/MODEL_RGB_50.png)
+![MODEL_RGB_50]([https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/MODEL_RGB_50.png](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/MODEL_RGB_50.png))
 
 Ahora predeciremos a que letras pertenece cada signo mostrado en la parte experimental.
 
