@@ -300,7 +300,11 @@ El accuracy del modelo, con dataset RGB_50:
 Conclusiones
 -----
 
+* De los accuracy de los datasets usados en el modelo Sequential podemos concluir que "El accuracy del modelo, con dataset GRAY_50" es el mas alto dentro de nuestros 04 conjuntos de datasets.
 
+* Cuantos mas canales tenga nuestros frames mas lento sera el aprendizaje de nuestra red neuronal convolucional(CNN) pero obtendremos un mejor accuracy que si usaramos tan solo 01 canal. 
+
+* Podemos concluir que el accuracy de (28px)x(28px) en RGB es mayor pero no lo suficientemente como para no trabajar con frames de (28px)x(28px) en ecalas de grises.
 
 
 Trabajos Futuros
