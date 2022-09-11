@@ -1,4 +1,4 @@
-Reconocimiento del abecedario en el Lenguaje de Señas Peruano(LSP)
+Reconocimiento de Lengua de Señas Peruana (LSP) por Redes Neuronales Convolucionales (CNN)
 ========
 
 Introduccion
