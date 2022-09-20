@@ -4,22 +4,13 @@ Reconocimiento de Lengua de Señas Peruana (LSP) por Redes Neuronales Convolucio
 Introduccion
 -----
 
-Ha habido personas sordas en todos los momentos de la historia humana, y en todas partes en que estas han formado una comunidad, una lengua de señas ha surgido.
-
 El lenguaje de señas es un tipo de lenguaje que utiliza movimientos de manos, expresiones faciales y lenguaje corporal para comunicarse. Lo utilizan las personas sordas y las personas que no pueden hablar pero si oir. Pero también lo utilizan personas oyentes, con mayor frecuencia parientes de las personas sordas, e intérpretes que permiten que los sordos y comunidades más amplias se comuniquen entre sí.
 
 El Lenguaje de Señas(LSP) es una lengua originaria peruana creada por la comunidad sorda del Peru. De igual manera a todas las lenguas, a partir de ella se construye la identidad, la cultura, el conocimiento ancestral y las prácticas sociales de sus usuarios. 
 
-Por tal motio el Lenguaje de Señas entre países y regiones puede diferir en diversas partes de su estructura y gramatica, el Lenguaje de Señas Peruano(LSP) es diferente al que se usa en Brasil, USA, Bolivia, Uruguay, Argentina o en Chile.
-
-Con la ayuda de la ciencia y la tecnología avanzadas, sean desarrollado muchas técnicas para que las personas sordas se puedan comunicar con fluidez.
-
-
 Al igual que un infante aprende a reconocer objetos, necesitamos elaborar un algoritmo para que la computadora pueda aprender, millones de imágenes antes de que pueda generalizar la entrada y hacer predicciones para imágenes que nunca antes había visto.
 
 Las computadoras "ven" de una manera diferente a como lo hacemos nosotros. Su mundo consiste sólo en números. Cada imagen se puede representar como conjuntos bidimensionales de números, conocidos como píxeles.
-
-Pero el hecho de que perciban las imágenes de manera diferente no significa que no puedan ser entrenadas para reconocer patrones como lo hacemos los humanos.
 
 Para enseñar un algoritmo sobre cómo reconocer objetos en imágenes, utilizamos un tipo específico de red neuronal artificial: una red neuronal convolucional (CNN). 
 
