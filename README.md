@@ -108,63 +108,6 @@ Seguidamente ploteamos nuestro conteo de frames por etiquetas, para ello hacemos
 ```
 Ploting_images.py
 ```
-Ademas en el codigo anterior se construye nuestro modelo de entrenamiento(Sequential), veamoslo detenidamente:
-
-```
-# La funcion ImageDataGenerator, permitira a nuestro modelo aprender mediante rotaciones de nuestros frames en su mismo plano
-datagen = ImageDataGenerator(featurewise_center=False, 
-    samplewise_center=False, 
-    featurewise_std_normalization=False, 
-    samplewise_std_normalization=False,
-    zca_whitening=False,
-    zca_epsilon=1e-06,
-    rotation_range=15,
-    width_shift_range=0.1, 
-    height_shift_range=0.1,
-    shear_range=0.3, 
-    zoom_range=0.1,
-    channel_shift_range=0.0, 
-    fill_mode="nearest",
-    horizontal_flip=False, 
-    vertical_flip=True, 
-    validation_split=0.0,)
-
-datagen.fit(x_train)
-
-# Comienza la construcción del modelo en Keras: Sequential.
-model = Sequential()
-
-# Primera capa Conv2D con un numero de filtros: 64.  Ancho de la ventana convolucional: 3.
-model.add(Conv2D(64, kernel_size = (3, 3), activation = 'relu', input_shape = (t, t, 3)))
-
-# Introduciendo la primera capa de pooling, para reducir las dimensiones de salida
-model.add(MaxPooling2D(pool_size = (2, 2)))
-model.add(Dropout(0.20))
-
-# Primera capa Conv2D con un numero de filtros: 64  Ancho de la ventana convolucional: 3.
-model.add(Conv2D(64, kernel_size = (3, 3), activation = 'relu'))
-
-# Introduciendo la tercera capa de pooling, para reducir las dimensiones de salida
-model.add(MaxPooling2D(pool_size = (2, 2)))
-model.add(Dropout(0.20))
-
-# Primera capa Conv2D con un numero de filtros: 64  Ancho de la ventana convolucional: 3.
-model.add(Conv2D(64, kernel_size = (3, 3), activation = 'relu'))
-
-# Introduciendo la cuarta capa de pooling, para reducir las dimensiones de salida
-model.add(MaxPooling2D(pool_size = (2, 2)))
-model.add(Dropout(0.20))
-
-# La instruccion Flatten() convierte los elemntos de la matriz de la imagen en un array plano.
-model.add(Flatten())
-
-# Cuarta capa con 128 nudos.
-model.add(Dense(128, activation = 'relu'))
-model.add(Dropout(0.20))
-
-# Capa de salida con activacion "softmax" y 24 nudos.
-model.add(Dense(num_classes, activation = 'softmax'))
-```
 
 Guardando el modelo de entrenamiento de nuestros 04 conjuntos de dataset, en archivos de extension h5:
 
