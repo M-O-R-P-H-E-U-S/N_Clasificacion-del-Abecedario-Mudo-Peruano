@@ -112,13 +112,7 @@ Una vez guardados los modelos los cargamos en el siguiente sript:
 Using_model.py
 ```
 
-Usando las siguientes imagenes obtenidas de una mano distinta y de fondo distinto al original usado para la elaboracion del dataset, las cargamos al script anterior y predecimos en texto el signo que se visualiza.
-
-![DEBE_SER_A](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_A.jpg) ![DEBE_SER_G_A](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_G_A.jpg)
-
-![DEBE_SER_G](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_G.jpeg) ![DEBE_SER_L](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_L.jpeg)
-
-![DEBE_SER_W](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_W.jpg) ![DEBE_SER_Y](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_Y.jpeg)
+Usando las siguientes imagenes obtenidas(DEBE_SER_A, DEBE_SER_G_A, DEBE_SER_G, DEBE_SER_L, DEBE_SER_W, DEBE_SER_Y) de una mano distinta y de fondo distinto al original usado para la elaboracion del dataset, las cargamos al script anterior y predecimos en texto el signo que se visualiza.
 
 Para poder visualizar los diagramas de los modelos se usa la siguiente funcion:
 ```
