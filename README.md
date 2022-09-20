@@ -138,7 +138,7 @@ tf.keras.utils.plot_model("Modelo", to_file="Nombre de la imagen en extension jp
 Resultados
 -----
 
-Ahora mostramos las graficas de "Accuracy vs Epocas" y "Loss vs Epocas", obtenidas de cada dataset:
+Mostramos las graficas de "Accuracy vs Epocas" y "Loss vs Epocas", obtenidas de cada dataset:
 
 *GRAY_28
 
