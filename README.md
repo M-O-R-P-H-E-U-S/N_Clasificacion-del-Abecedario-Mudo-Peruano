@@ -118,17 +118,11 @@ Using_model.py
 
 Usando las siguientes imagenes obtenidas de una mano distinta y de fondo distinto al original usado para la elaboracion del dataset, las cargamos al script anterior y predecimos en texto el signo que se visualiza.
 
-![DEBE_SER_A](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_A.jpg)
+![DEBE_SER_A](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_A.jpg) ![DEBE_SER_G](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_G.jpeg)
 
-![DEBE_SER_G](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_G.jpeg)
+![DEBE_SER_G_A](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_G_A.jpg) ![DEBE_SER_L](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_L.jpeg)
 
-![DEBE_SER_G_A](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_G_A.jpg)
-
-![DEBE_SER_L](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_L.jpeg)
-
-![DEBE_SER_W](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_W.jpg)
-
-![DEBE_SER_Y](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_Y.jpeg)
+![DEBE_SER_W](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_W.jpg) ![DEBE_SER_Y](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_Y.jpeg)
 
 Para poder visualizar los diagramas de los modelos se usa la siguiente funcion:
 ```
@@ -144,25 +138,17 @@ Mostramos las graficas de "Accuracy vs Epocas" y "Loss vs Epocas", obtenidas de 
 
 ![GRAY_Accuracy_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_Accuracy_28.png) ![GRAY_Loss_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_Loss_28.png)
 
-
 *GRAY_50
 
-![GRAY_Accuracy_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_Accuracy_50.png)
-
-![GRAY_Loss_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_Loss_50.png)
+![GRAY_Accuracy_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_Accuracy_50.png) ![GRAY_Loss_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_Loss_50.png)
 
 *RGB_28
 
-![RGB_Accuracy_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_Accuracy_28.png)
-
-![RGB_Loss_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_Loss_28.png)
+![RGB_Accuracy_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_Accuracy_28.png) ![RGB_Loss_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_Loss_28.png)
 
 *RGB_50
 
-![RGB_Accuracy_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_Accuracy_50.png)
-
-![RGB_Loss_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_Loss_50.png)
-
+![RGB_Accuracy_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_Accuracy_50.png) ![RGB_Loss_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_Loss_50.png)
 
 Ahora la evaluacion el modelo, con dataset GRAY_28:
 ```
