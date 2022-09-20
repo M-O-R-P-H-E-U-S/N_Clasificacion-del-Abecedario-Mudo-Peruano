@@ -186,12 +186,6 @@ El accuracy del modelo, con dataset RGB_50:
 0.9999133944511414
 ```
 
-Ahora mostrando el diagrama del modelo:
-
-*MODEL_RGB_28:
-![MODEL_RGB_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/MODEL_RGB_28.png)
-
-
 Ahora predeciremos a que letras pertenece cada signo mostrado en la parte experimental.
 
 * GRAY_28_100Epocas.h5:
