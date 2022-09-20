@@ -14,11 +14,7 @@ Las computadoras "ven" de una manera diferente a como lo hacemos nosotros. Su mu
 
 Para enseñar un algoritmo sobre cómo reconocer objetos en imágenes, utilizamos un tipo específico de red neuronal artificial: una red neuronal convolucional (CNN). 
 
-Una Red Neuronal Convolucional(CNN) toma una imagen como entrada, donde distingue sus objetos en función de tres planos de color e identifica varios espacios de color. Ademas mide las dimensiones de la imagen. Ilustrando el proceso anterior:
-
-![cnn](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/cnn.png)
-
-En la imagen anterior, tenemos varios colores basados en el plano de tres colores que es rojo(R), verde(G) y azul(B). A continuación, se identifican los diversos espacios de color en los que se encuentran las imágenes, como RGB, CMYK, escala de grises y muchos más. Una capacidad practica de las redes neuronales convolucionales es que reducen la dimensión de la imagen hasta el punto de que es más fácil de procesar. 
+Una Red Neuronal Convolucional(CNN) toma una imagen como entrada, donde distingue sus objetos en función de tres planos de color e identifica varios espacios de color. Ademas mide las dimensiones de la imagen. Una capacidad practica de las redes neuronales convolucionales es que reducen la dimensión de la imagen hasta el punto de que es más fácil de procesar. 
 
 Motivacion
 -----
