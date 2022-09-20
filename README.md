@@ -118,9 +118,9 @@ Using_model.py
 
 Usando las siguientes imagenes obtenidas de una mano distinta y de fondo distinto al original usado para la elaboracion del dataset, las cargamos al script anterior y predecimos en texto el signo que se visualiza.
 
-![DEBE_SER_A](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_A.jpg) ![DEBE_SER_G](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_G.jpeg)
+![DEBE_SER_A](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_A.jpg) ![DEBE_SER_G_A](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_G_A.jpg)
 
-![DEBE_SER_G_A](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_G_A.jpg) ![DEBE_SER_L](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_L.jpeg)
+![DEBE_SER_G](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_G.jpeg) ![DEBE_SER_L](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_L.jpeg)
 
 ![DEBE_SER_W](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_W.jpg) ![DEBE_SER_Y](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/DEBE_SER_Y.jpeg)
 
