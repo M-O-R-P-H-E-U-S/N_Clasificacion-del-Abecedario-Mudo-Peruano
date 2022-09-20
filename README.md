@@ -138,51 +138,6 @@ tf.keras.utils.plot_model("Modelo", to_file="Nombre de la imagen en extension jp
 Resultados
 -----
 
-Visualizacion de los frames con su respectivas etiquetas:
-
-*GRAY_BINARY_28
-
-![GRAY_BINARY_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_BINARY_28.png)
-
-*GRAY_GREEN_28
-
-![GRAY_GREEN_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_GREEN_28.png)
-
-*GRAY_BINARY_50
-
-![GRAY_BINARY_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_BINARY_50.png)
-
-*GRAY_GREEN_50
-
-![GRAY_GREEN_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_GREEN_50.png)
-
-*RGB_BINARY_28
-
-![RGB_BINARY_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_BINARY_28.png)
-
-*RGB_BINARY_50
-
-![RGB_BINARY_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_BINARY_50.png)
-
-
-Ahora, mostrandose los ploteos del conteo de frames por etiqueta de cada uno de nuestros conjuntos de dataset:
-
-*Conteo de GRAY_28
-
-![CONTEO_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/CONTEO_28.png)
-
-*Conteo GRAY_50
-
-![Conteo](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/Conteo.png)
-
-*Conteo RGB_28
-
-![RGB_conteo_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_conteo_28.png)
-
-*Conteo RGB_50
-
-![RGB_conteo_50](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/RGB_conteo_50.png)
-
 Ahora mostramos las graficas de "Accuracy vs Epocas" y "Loss vs Epocas", obtenidas de cada dataset:
 
 *GRAY_28
