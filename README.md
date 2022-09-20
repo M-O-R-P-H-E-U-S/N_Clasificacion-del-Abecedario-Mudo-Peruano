@@ -142,9 +142,8 @@ Mostramos las graficas de "Accuracy vs Epocas" y "Loss vs Epocas", obtenidas de 
 
 *GRAY_28
 
-![GRAY_Accuracy_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_Accuracy_28.png)
+![GRAY_Accuracy_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_Accuracy_28.png) ![GRAY_Loss_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_Loss_28.png)
 
-![GRAY_Loss_28](https://github.com/M-O-R-P-H-E-U-S/N_Clasificacion-del-Abecedario-Mudo-Peruano/blob/main/GRAY_Loss_28.png)
 
 *GRAY_50
 
