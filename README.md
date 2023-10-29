@@ -1,4 +1,4 @@
-Reconocimiento de Lengua de Señas Peruana (LSP) por Redes Neuronales Convolucionales (CNN)
+Recognition of Peruvian Sign Language (LSP) by Convolutional Neural Networks (CNN)
 ========
 
 Introduccion
